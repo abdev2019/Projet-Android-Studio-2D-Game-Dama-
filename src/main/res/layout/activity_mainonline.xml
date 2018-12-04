@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bg4"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id3" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"  >
+
+
+                        <!-- Menu left -->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:padding="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/rounded"
+                                        android:orientation="vertical" >
+
+                                            <LinearLayout
+                                                android:gravity="top"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:orientation="horizontal" >
+                                                    <LinearLayout
+                                                        android:layout_width="0dp"
+                                                        android:layout_weight="1"
+                                                        android:layout_height="wrap_content"
+                                                        android:orientation="vertical"
+                                                        android:weightSum="1">
+                                                            <TextView
+                                                                android:id="@+id/myNameOnline"
+                                                                android:text="Hi Abdo !"
+                                                                android:textColor="#FFF"
+                                                                android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content" />
+                                                            <TextView
+                                                                android:text="Your code : "
+                                                                android:textColor="#FFF"
+                                                                android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content" />
+                                                    </LinearLayout>
+
+                                                <Button
+                                                    android:id="@+id/id_btnCopy"
+                                                    android:layout_width="45dp"
+                                                    android:layout_height="20dp"
+                                                    android:layout_gravity="top"
+                                                    android:background="@drawable/btn2"
+                                                    android:clickable="true"
+                                                    android:padding="0dp"
+                                                    android:text="copy"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@android:color/holo_blue_bright"
+                                                    android:textSize="12sp" />
+                                            </LinearLayout>
+
+                                        <TextView
+                                            android:id="@+id/myCode"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:textColor="#FFF"
+                                            android:textSize="12sp" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_marginTop="7dp"
+                                        android:padding="5dp"
+                                        android:gravity="center"
+                                        android:background="@drawable/rounded"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_gravity="left"
+                                                android:textColor="#FFF"
+                                                android:text="Code Enemy :"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content" />
+
+                                            <EditText
+                                                android:id="@+id/codeEnemy"
+                                                android:background="#44FFFFFF"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:textSize="18dp"
+                                                android:lines="1"
+                                                android:scrollHorizontally="true"
+                                                android:textColor="#FFF"/>
+                                            <LinearLayout
+                                                android:layout_marginTop="4dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                                <Button
+                                                    android:id="@+id/id_btnInvite1"
+                                                    android:layout_width="40dp"
+                                                    android:layout_height="30dp"
+                                                    android:background="@drawable/button"
+                                                    android:text="Invite"
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@android:color/holo_blue_bright"
+                                                    android:textSize="13sp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:gravity="bottom"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"  >
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <Button
+                                                android:id="@+id/id_btnMain"
+                                                android:layout_width="60dp"
+                                                android:layout_height="30dp"
+                                                android:background="@drawable/button"
+                                                android:text="main"
+                                                android:textColor="@android:color/holo_blue_bright"
+                                                android:textSize="13sp" />
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_weight="3"
+                                                android:layout_height="40dp" />
+
+                                            <ImageButton
+                                                android:id="@+id/id_btnMusic"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:background="@drawable/soundoff" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.05" />
+
+
+                        <!-- Menu right -->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.45"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:background="@drawable/list"
+                                    android:layout_weight="0.9"
+                                    android:layout_marginBottom="5dp">
+
+                                        <TextView
+                                        android:id="@+id/pOnline"
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:textAlignment="center"
+                                        android:text="loading..."
+                                        android:textColor="#FFF"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical"
+                                            android:paddingTop="5dp"
+                                            android:paddingLeft="10dp"
+                                            android:paddingRight="10dp"
+                                            android:weightSum="1">
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="0dp"
+                                                    android:layout_weight="0.1"
+                                                    android:orientation="horizontal">
+                                                        <TextView
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="match_parent"
+                                                            android:text="Select Enemy : "
+                                                            android:textColor="#FFF"
+                                                            android:gravity="center" />
+                                                        <TextView
+                                                            android:id="@+id/nbrPlayers"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:text="0 players"
+                                                            android:gravity="center"
+                                                            android:textColor="#FFF"/>
+                                                </LinearLayout>
+                                                <View
+                                                    android:layout_marginTop="2dp"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="1dp"
+                                                    android:background="#FF0000FF" />
+                                                <ListView
+                                                    android:id="@+id/les_players"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="0dp"
+                                                    android:layout_weight="0.9"
+                                                    android:background="#110000FF">
+                                                </ListView>
+
+                                            <LinearLayout
+                                                android:layout_marginBottom="4dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal" >
+
+                                                <Button
+                                                    android:id="@+id/id_btnInvite2"
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="30dp"
+                                                    android:background="@drawable/button"
+                                                    android:text="Invite"
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@android:color/holo_blue_bright"
+                                                    android:textSize="13sp"
+                                                    android:textStyle="bold" />
+
+                                            </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </FrameLayout>
+
+                        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+

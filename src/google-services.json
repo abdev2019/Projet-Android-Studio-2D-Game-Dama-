@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "902376007730",
+    "firebase_url": "https://siirdem-65101.firebaseio.com",
+    "project_id": "siirdem-65101",
+    "storage_bucket": "siirdem-65101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902376007730:android:bf49146f37167447",
+        "android_client_info": {
+          "package_name": "com.abdev.siirdem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902376007730-6kb3hk0lf55k75mokhrcv0irhsv2e8i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJgsdJ-deDNhV_SvqxOl7sXpOD2aDo6uU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

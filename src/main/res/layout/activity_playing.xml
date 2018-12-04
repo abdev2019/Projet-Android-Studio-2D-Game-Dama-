@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+
+        android:background="#000"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:id="@+id/main_jeu"
+            android:orientation="vertical"  >
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/left_jeu"
+                    android:gravity="center"
+                    android:weightSum="1.05">
+
+                        <Button
+                            android:id="@+id/id_btnReset"
+                            android:background="@drawable/button"
+                            android:layout_width="65dp"
+                            android:textColor="#2FF"
+                            android:text="reset"
+                            android:layout_height="32dp"
+                            />
+
+
+                        <Button
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/id_btnRestart"
+                            android:textColor="#2FF"
+                            android:text="restart"
+                            android:background="@drawable/button"
+                            android:layout_width="65dp"
+                            android:layout_height="32dp"  />
+
+
+                        <Button
+                            android:id="@+id/id_btnMain"
+                            android:layout_marginTop="5dp"
+                            android:textColor="#2FF"
+                            android:text="main"
+                            android:background="@drawable/button"
+                            android:layout_width="65dp"
+                            android:layout_height="32dp"   />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/id_btnMusic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/soundoff" />
+
+                    <ImageButton
+                        android:id="@+id/id_btnAlert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/alarm" />
+
+                    <ImageButton
+                        android:id="@+id/id_btnMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/message"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+
+
+                <FrameLayout
+                    android:background="@drawable/radpion1"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id_img1"
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="4dp" >
+                    <ImageView
+                        android:id="@+id/id_img11"
+                        android:background="@drawable/pion1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:id="@+id/scorePion1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="12"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/radpion1"
+                    android:id="@+id/id_img2"
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="4dp">
+                    <ImageView
+                        android:id="@+id/id_img22"
+                        android:background="@drawable/pion2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/scorePion2"
+                        android:textColor="#FFF"
+                        android:text="12"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </FrameLayout>
+
+
+                </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

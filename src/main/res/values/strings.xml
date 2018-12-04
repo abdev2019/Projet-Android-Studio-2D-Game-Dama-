@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Siir Dem</string>
+
+    <string name="admob_banner_id1">
+            ca-app-pub-7344721663828519/1320326895
+    </string>
+
+    <string name="admob_banner_id2">
+        ca-app-pub-7344721663828519/4290691890
+    </string>
+
+    <string name="admob_banner_id3">
+        ca-app-pub-7344721663828519/7075038845
+    </string>
+
+
+    <string name="admob_interstitial_id">
+        ca-app-pub-7344721663828519/6979847686
+    </string>
+
+    <string name="admob_app_id">
+        ca-app-pub-7344721663828519~1563869473
+    </string>
+</resources>
+
